@@ -1,0 +1,871 @@
+{
+	"id": "1b251f5f-d6bf-4375-a61d-c320dec68987",
+	"name": "LOne",
+	"allTests": [],
+	"timestamp": "2019-10-24T23:25:21.092Z",
+	"collection_id": "8e0417c4-2cd1-4630-b6a1-aa6eb301208d",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "8e0417c4-2cd1-4630-b6a1-aa6eb301208d",
+		"name": "LOne",
+		"order": [],
+		"folders_order": [
+			"bd68a2a0-fa5d-4509-85d2-5f065df80227",
+			"8140bda1-5a8e-42ef-9897-50ee1fb1c25a"
+		],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GET SpecificCharacter 1",
+			"id": "518250d3-e506-4df0-9e18-808595b9b62b",
+			"url": "https://swapi.co/api/people/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify that specified character details exist": true,
+				"Verify that details of a specified Star War Character is returned": true
+			},
+			"testPassFailCounts": {
+				"Verify that specified character details exist": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that details of a specified Star War Character is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"217"
+			],
+			"allTests": [
+				{
+					"Verify that specified character details exist": true,
+					"Verify that details of a specified Star War Character is returned": true
+				}
+			],
+			"time": "217",
+			"totalRequestTime": "217",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get SpecificPlanet 1",
+			"id": "a4949e40-fe05-4e52-a7cf-e1686b6f89af",
+			"url": "https://swapi.co/api/planets/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify that specified planet details exist": true,
+				"Verify that details of a specified Star War Planet is returned": true
+			},
+			"testPassFailCounts": {
+				"Verify that specified planet details exist": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that details of a specified Star War Planet is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"221"
+			],
+			"allTests": [
+				{
+					"Verify that specified planet details exist": true,
+					"Verify that details of a specified Star War Planet is returned": true
+				}
+			],
+			"time": "221",
+			"totalRequestTime": "221",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET SearchCharacter Luke",
+			"id": "d728c694-6c1c-4d7b-acb3-27a3b2ac795b",
+			"url": "https://swapi.co/api/people/?search=Luke",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify that search renders results": true,
+				"Verify that character detail is returned for an existing character search request": true,
+				"Verify that unique character is returned": true
+			},
+			"testPassFailCounts": {
+				"Verify that search renders results": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that character detail is returned for an existing character search request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that unique character is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"244"
+			],
+			"allTests": [
+				{
+					"Verify that search renders results": true,
+					"Verify that character detail is returned for an existing character search request": true,
+					"Verify that unique character is returned": true
+				}
+			],
+			"time": "244",
+			"totalRequestTime": "244",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET CharacterList",
+			"id": "7f0d636c-68bb-442e-9075-76d63dce5940",
+			"url": "https://swapi.co/api/people",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify that status code is 200": true,
+				"Verify that list of all Star War planets is returned": true
+			},
+			"testPassFailCounts": {
+				"Verify that status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that list of all Star War planets is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"331"
+			],
+			"allTests": [
+				{
+					"Verify that status code is 200": true,
+					"Verify that list of all Star War planets is returned": true
+				}
+			],
+			"time": "331",
+			"totalRequestTime": "331",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET SearchPlanet tatooine",
+			"id": "8a03cbc4-6c30-48ad-ab6e-1b5afcae55f8",
+			"url": "https://swapi.co/api/planets/?search=tatooine",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify that search renders results": true,
+				"Verify that planet detail is returned for an existing planet search request": true,
+				"Verify that unique planet is returned": true
+			},
+			"testPassFailCounts": {
+				"Verify that search renders results": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that planet detail is returned for an existing planet search request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that unique planet is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"104"
+			],
+			"allTests": [
+				{
+					"Verify that search renders results": true,
+					"Verify that planet detail is returned for an existing planet search request": true,
+					"Verify that unique planet is returned": true
+				}
+			],
+			"time": "104",
+			"totalRequestTime": "104",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET PlanetList",
+			"id": "59536853-bcf3-4989-a988-564d8c6e4361",
+			"url": "https://swapi.co/api/planets",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify that status code is 200": true,
+				"Verify that list of all Star War planets is returned": true
+			},
+			"testPassFailCounts": {
+				"Verify that status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that list of all Star War planets is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"159"
+			],
+			"allTests": [
+				{
+					"Verify that status code is 200": true,
+					"Verify that list of all Star War planets is returned": true
+				}
+			],
+			"time": "159",
+			"totalRequestTime": "159",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET InvalidCharacterRequest Prabjot",
+			"id": "6a27d102-58a7-4437-ae1c-f9eed4868f2c",
+			"url": "https://swapi.co/api/people/Prabjot",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"tests": {
+				"Verify invalid character request returns error": true
+			},
+			"testPassFailCounts": {
+				"Verify invalid character request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"178"
+			],
+			"allTests": [
+				{
+					"Verify invalid character request returns error": true
+				}
+			],
+			"time": "178",
+			"totalRequestTime": "178",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET NonExistingCharacterRequest 300",
+			"id": "7f840862-d091-4048-9570-861a0241a47c",
+			"url": "https://swapi.co/api/people/300",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"tests": {
+				"Verify non existing character request returns error": true
+			},
+			"testPassFailCounts": {
+				"Verify non existing character request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"146"
+			],
+			"allTests": [
+				{
+					"Verify non existing character request returns error": true
+				}
+			],
+			"time": "146",
+			"totalRequestTime": "146",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET InvalidPlanetRequest Toronto",
+			"id": "3c1a3c40-59a7-4d35-bed4-4b9c0eb345e2",
+			"url": "https://swapi.co/api/planets/Toronto",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"tests": {
+				"Verify invalid planet request returns error": true
+			},
+			"testPassFailCounts": {
+				"Verify invalid planet request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"106"
+			],
+			"allTests": [
+				{
+					"Verify invalid planet request returns error": true
+				}
+			],
+			"time": "106",
+			"totalRequestTime": "106",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET NonExistingPlanetRequest 8000",
+			"id": "58318b67-d477-4138-ac57-3b713556f2f1",
+			"url": "https://swapi.co/api/planets/8000",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"tests": {
+				"Verify non existing planet request returns error": true
+			},
+			"testPassFailCounts": {
+				"Verify non existing planet request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"90"
+			],
+			"allTests": [
+				{
+					"Verify non existing planet request returns error": true
+				}
+			],
+			"time": "90",
+			"totalRequestTime": "90",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET SearchNonExistingCharacter 900",
+			"id": "45655b03-31fa-4910-9819-a726acf58013",
+			"url": "https://swapi.co/api/people/?search=900",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify non existing character search returns no results": true
+			},
+			"testPassFailCounts": {
+				"Verify non existing character search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"121"
+			],
+			"allTests": [
+				{
+					"Verify non existing character search returns no results": true
+				}
+			],
+			"time": "121",
+			"totalRequestTime": "121",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET SearchInvalidCharacter prabjot",
+			"id": "ea9f99b2-216e-4bd5-b8f4-1e3b8d42805b",
+			"url": "https://swapi.co/api/people/?search=prabjot",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify invalid character search returns no results": true
+			},
+			"testPassFailCounts": {
+				"Verify invalid character search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"145"
+			],
+			"allTests": [
+				{
+					"Verify invalid character search returns no results": true
+				}
+			],
+			"time": "145",
+			"totalRequestTime": "145",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET SearchNonExistingPlanet 900",
+			"id": "4241c8f9-0d69-4574-b9f2-6ad605296ea9",
+			"url": "https://swapi.co/api/planets/?search=900",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify non existing planet search returns no results": true
+			},
+			"testPassFailCounts": {
+				"Verify non existing planet search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"92"
+			],
+			"allTests": [
+				{
+					"Verify non existing planet search returns no results": true
+				}
+			],
+			"time": "92",
+			"totalRequestTime": "92",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET SearchInvalidPlanet Toronto",
+			"id": "ba88a13c-ee61-43ec-837e-46995750b113",
+			"url": "https://swapi.co/api/planets/?search=Toronto",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Verify invalid planet search returns no results": true
+			},
+			"testPassFailCounts": {
+				"Verify invalid planet search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"109"
+			],
+			"allTests": [
+				{
+					"Verify invalid planet search returns no results": true
+				}
+			],
+			"time": "109",
+			"totalRequestTime": "109",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 22,
+	"totalFail": 0,
+	"totalTime": 2263,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GET SpecificCharacter 1",
+			"id": "518250d3-e506-4df0-9e18-808595b9b62b",
+			"url": "https://swapi.co/api/people/1",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify that specified character details exist": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that details of a specified Star War Character is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get SpecificPlanet 1",
+			"id": "a4949e40-fe05-4e52-a7cf-e1686b6f89af",
+			"url": "https://swapi.co/api/planets/1",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify that specified planet details exist": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that details of a specified Star War Planet is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET SearchCharacter Luke",
+			"id": "d728c694-6c1c-4d7b-acb3-27a3b2ac795b",
+			"url": "https://swapi.co/api/people/?search=Luke",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify that search renders results": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that character detail is returned for an existing character search request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that unique character is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET CharacterList",
+			"id": "7f0d636c-68bb-442e-9075-76d63dce5940",
+			"url": "https://swapi.co/api/people",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify that status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that list of all Star War planets is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET SearchPlanet tatooine",
+			"id": "8a03cbc4-6c30-48ad-ab6e-1b5afcae55f8",
+			"url": "https://swapi.co/api/planets/?search=tatooine",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify that search renders results": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that planet detail is returned for an existing planet search request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that unique planet is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET PlanetList",
+			"id": "59536853-bcf3-4989-a988-564d8c6e4361",
+			"url": "https://swapi.co/api/planets",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify that status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that list of all Star War planets is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET InvalidCharacterRequest Prabjot",
+			"id": "6a27d102-58a7-4437-ae1c-f9eed4868f2c",
+			"url": "https://swapi.co/api/people/Prabjot",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify invalid character request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET NonExistingCharacterRequest 300",
+			"id": "7f840862-d091-4048-9570-861a0241a47c",
+			"url": "https://swapi.co/api/people/300",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify non existing character request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET InvalidPlanetRequest Toronto",
+			"id": "3c1a3c40-59a7-4d35-bed4-4b9c0eb345e2",
+			"url": "https://swapi.co/api/planets/Toronto",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify invalid planet request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET NonExistingPlanetRequest 8000",
+			"id": "58318b67-d477-4138-ac57-3b713556f2f1",
+			"url": "https://swapi.co/api/planets/8000",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 404,
+				"name": "NOT FOUND",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify non existing planet request returns error": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET SearchNonExistingCharacter 900",
+			"id": "45655b03-31fa-4910-9819-a726acf58013",
+			"url": "https://swapi.co/api/people/?search=900",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify non existing character search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET SearchInvalidCharacter prabjot",
+			"id": "ea9f99b2-216e-4bd5-b8f4-1e3b8d42805b",
+			"url": "https://swapi.co/api/people/?search=prabjot",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify invalid character search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET SearchNonExistingPlanet 900",
+			"id": "4241c8f9-0d69-4574-b9f2-6ad605296ea9",
+			"url": "https://swapi.co/api/planets/?search=900",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify non existing planet search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET SearchInvalidPlanet Toronto",
+			"id": "ba88a13c-ee61-43ec-837e-46995750b113",
+			"url": "https://swapi.co/api/planets/?search=Toronto",
+			"time": "2019-10-24T23:25:21.092Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Verify invalid planet search returns no results": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
